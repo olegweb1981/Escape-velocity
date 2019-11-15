@@ -1,0 +1,52 @@
+@import 'var';
+@import 'reset';
+@import 'common';
+@import 'header';
+@import 'section';
+@import 'button';
+@import 'main';
+@import 'mini-posts';
+@import 'gallery';
+@import 'footer';
+
+//desctop
+@import 'desctop/common';
+@import 'desctop/header';
+@import 'desctop/section';
+@import 'desctop/button';
+@import 'desctop/main';
+@import 'desctop/mini-posts';
+@import 'desctop/gallery';
+@import 'desctop/footer';
+
+//tablet
+@import 'tablet/common';
+@import 'tablet/header';
+@import 'tablet/section';
+@import 'tablet/button';
+@import 'tablet/main';
+@import 'tablet/mini-posts';
+@import 'tablet/gallery';
+@import 'tablet/footer';
+
+//portrait
+@import 'portrait/common';
+@import 'portrait/header';
+@import 'portrait/section';
+@import 'portrait/button';
+@import 'portrait/main';
+@import 'portrait/mini-posts';
+@import 'portrait/gallery';
+@import 'portrait/footer';
+
+//mobile
+@import 'mobile/common';
+@import 'mobile/header';
+@import 'mobile/section';
+@import 'mobile/button';
+@import 'mobile/main';
+@import 'mobile/mini-posts';
+@import 'mobile/gallery';
+@import 'mobile/footer';
+
+//mobile-xs

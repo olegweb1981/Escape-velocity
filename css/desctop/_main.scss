@@ -1,0 +1,33 @@
+@media screen and (max-width: $xl-width) {
+    .main {
+        padding-bottom: 107px;
+    
+        .btn {
+            padding: 16px 42px;
+        }
+        .btn-info {
+            padding: 16px 53px;
+            margin-left: 25px;
+        }
+    
+        .buttons {
+            padding: 36px 0;
+        }
+    
+        .title {
+            padding: 15px 121px 40px 121px;
+        }
+    
+        img {
+            margin: 96px 0 82px 0;
+        }
+    
+        h2 {
+            padding: 6px 0 7px 0;
+        }
+    
+        h4 {
+            padding: 25px 0;
+        }
+    }
+}

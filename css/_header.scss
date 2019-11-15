@@ -1,0 +1,49 @@
+.header {
+    background-image: url(/img/banner.jpg);
+    background-size: cover;
+    background-position: top, center;
+    color: white;
+
+    a {
+        text-decoration: none;
+    }
+
+    h2 {
+        letter-spacing: 9.333px;
+        font-weight: 900;
+        padding: 0;
+    }
+}
+
+.menu {
+    display: flex;
+    padding: 47px 0 199px 0;
+    justify-content: center;
+    width: 100%;
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        border: 1px solid;
+        border-radius: 5px;
+        border-color: rgba(255, 255, 255, 0.2);
+        width: 65.7%;
+        padding: 16px 0;
+
+
+        li {
+            font-size: 13.06px;
+            letter-spacing: 3.26667px;
+            color: rgba(255, 255, 255, 0.7);
+            padding: 0 5px;
+        }
+    }
+}
+
+.slogan {
+    font-size: 16.8px;
+    letter-spacing: 3.36px;
+    padding: 21px 0 256px 0;
+    color: rgba(255, 255, 255, 0.5);
+}

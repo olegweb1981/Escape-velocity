@@ -1,0 +1,25 @@
+@media screen and (max-width: $xl-width) {
+    .info {
+        max-width: 978px;
+    }
+    
+    .mini-posts {
+        padding: 52px 0 16px 0;
+    
+        .mini-post {
+            padding: 7px 0 5px 105px;
+    
+            i {
+                font-size: 23px;
+                width: 58px;
+                height: 58px;
+                top: -3px;
+                left: 25px;
+            }
+    
+            p {
+                padding: 11px 18px 11px 0;
+            }
+        }
+    }
+}

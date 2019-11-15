@@ -1,0 +1,30 @@
+@media screen and (max-width: $lg-width) {
+    .gallery {
+
+        .title {
+            padding: 14px 78px 40px 78px;
+        }
+    
+        .wrap {
+            padding: 60px 0 102px 0;
+        }
+    
+        .inner {
+            width: 31.3%;
+    
+            .caption {
+                padding: 14px 0 8px 0;      
+            }
+    
+            p {
+                padding-bottom: 43px;
+            }
+    
+            .btn {
+                font-size: 13.2px;
+                letter-spacing: 3.3px;
+                padding: 11px 29px;
+            }
+        }
+    }
+}

@@ -1,0 +1,35 @@
+@media screen and (max-width: $sm-width) {
+    .section {
+        padding-bottom: 69px;
+
+        .btn {
+            width: 422px;
+        }
+    
+        h3 {
+            padding: 36px 0 21px 0;
+        }
+    
+        h1 {
+            font-size: 21px;
+            letter-spacing: 1.05px;
+            line-height: 26.25px;
+            padding: 26px 0;
+        }
+    
+        p {
+            padding: 19px 0 25px 0;
+            font-size: 15.4px;
+            letter-spacing: normal;
+            line-height: 22px;
+
+            br {
+                display: none;
+            }
+        }
+
+        .title {
+            left: 31.6%;
+        }
+    }
+}

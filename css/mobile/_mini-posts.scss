@@ -1,0 +1,28 @@
+@media screen and (max-width: $sm-width) {
+    .info {
+        padding: 8px 0 0 0;
+        max-width: 620px;
+        width: calc(100% - 0px);
+    }
+    
+    .mini-posts {
+        padding: 0;
+        flex-direction: column;
+    
+        .mini-post {
+            padding: 36px 0 2px 86px;
+    
+            i {
+                font-size: 14.49px;
+                width: 37px;
+                height: 36px;
+                top: 35px;
+                left: 29px;
+            }
+    
+            p {
+                padding: 8px 18px 8px 0;
+            }
+        }
+    }
+}

@@ -1,0 +1,33 @@
+.info {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0 auto;
+    max-width: 1134px;
+}
+
+.mini-posts {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    padding: 68px 0 3px 0;
+
+    .mini-post {
+        position: relative;
+        padding: 7px 0 5px 119px;
+
+        i {
+            font-size: 26.8333px;
+            background-color: #2E323A;
+            width: 67px;
+            height: 67px;
+            top: -7px;
+            left: 25px;
+            display: flex;
+        }
+
+        p {
+            padding: 16px 5px 16px 0;
+        }
+    }
+}

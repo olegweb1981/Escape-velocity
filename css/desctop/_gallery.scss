@@ -1,0 +1,30 @@
+@media screen and (max-width: $xl-width) {
+    .gallery {
+
+        .title {
+            padding: 16px 85px 40px 85px;
+        }
+    
+        .wrap {
+            padding: 96px 0 145px 0;
+        }
+    
+        .inner {
+            width: 30.4%;
+    
+            .caption {
+                padding: 20px 0 12px 0;        
+            }
+    
+            p {
+                padding-bottom: 48px;
+            }
+    
+            .btn {
+                font-size: 14.4px;
+                letter-spacing: 3.6px;
+                padding: 12px 32px;
+            }
+        }
+    }
+}

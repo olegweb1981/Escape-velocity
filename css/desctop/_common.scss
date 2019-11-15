@@ -1,0 +1,46 @@
+@media screen and (max-width: $xl-width) {
+    
+    body {
+        font-size: 12pt;
+    }
+
+    .container {
+        width: 70em;
+    }
+
+    h2 {
+        letter-spacing: 2.4px;
+        font-size: 32px;
+    }
+
+    h4 {
+        font-size: 20.8px;
+        letter-spacing: 1.56px;
+        line-height: 31.2px;
+        color: #b1b4b9;
+    }
+
+    .title {
+        top: -48px;
+        font-size: 14.4px;
+        letter-spacing: 3.6px;
+        padding: 15px 89px 40px 89px;
+    }
+
+    h3 {
+        font-size: 24px;
+        letter-spacing: 1.8px;
+        padding: 112px 0 50px 0;
+    }
+
+    .caption {
+        font-size: 18.4px;
+        letter-spacing: 0.92px;
+    }
+
+    p {
+        font-size: 16px;
+        letter-spacing: 0.4px;
+        line-height: 28px;
+    }
+}

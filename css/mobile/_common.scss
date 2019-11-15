@@ -1,0 +1,50 @@
+@media screen and (max-width: $sm-width) {
+    
+    body {
+        font-size: 10.5pt;
+    }
+
+    .container {
+        width: calc(100% - 40px);
+    }
+
+    .cals {
+        width: calc(100% - 100px);
+    }
+
+    h2 {
+        letter-spacing: 1.575px;
+        font-size: 21px;
+    }
+
+    h4 {
+        font-size: 14px;
+        letter-spacing: normal;
+        line-height: 21px;
+        color: #b1b4b9;
+    }
+
+    .title {
+        top: -32px;
+        font-size: 12.6px;
+        letter-spacing: 3.15px;
+        padding: 7px 30px 30px 30px;
+    }
+
+    h3 {
+        font-size: 17.5px;
+        letter-spacing: 1.3125px;
+        padding: 112px 0 50px 0;
+    }
+
+    .caption {
+        font-size: 16.1px;
+        letter-spacing: 0.805px;
+    }
+
+    p {
+        font-size: 14px;
+        letter-spacing: normal;
+        line-height: 21px;
+    }
+}

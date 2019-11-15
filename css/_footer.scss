@@ -1,0 +1,157 @@
+.footer {
+    background-color: #272A33;
+
+    .title {
+        background-color: #272A33;
+        padding: 20px 126px 40px 126px;
+    }
+
+    h2 {
+        padding: 180px 0 40px 0;
+        color: white;
+    }
+
+    h4 {
+        padding-bottom: 112px;
+    }
+
+    .btn {
+        font-size: 16.8px;
+        letter-spacing: 4.2px;
+        padding: 18px 72px;
+    }
+
+    .btn-reset {
+        margin-left: 29px;
+        padding: 17px 66px;
+        background-color: transparent;
+        border: 1px solid rgba(255, 255, 255, 0.15);
+
+        &:hover {
+            opacity: 1;
+            transition: 0.5s ease;
+            border: 1px solid rgba(255, 255, 255, 0.25);
+            transition: 0.5s ease;
+        }
+    }
+}
+
+.feedback {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 68px 0 55px 0;
+    text-align: left;
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+
+    .form, textarea {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+        padding-bottom: 24px;
+        border: none;
+    }
+
+    .form-group {
+        width: 50%;
+        padding-right: 25px;
+        padding-top: 43px;
+
+        input, textarea {
+            border-radius: 6.5px;
+            background-color: #CCCCCC;
+            border: 0;
+
+            &:focus {
+                background-color: white;
+            }
+
+            &::placeholder {
+                color: #919499;
+                font-family:"Source Sans Pro", sans-serif;
+                font-size: 18.6667px;
+                letter-spacing: 0.466667px;
+                font-style: italic;
+            }
+        }
+
+        input {
+            width: 48%;
+            padding: 20px 16px 15px 18px;
+        }
+
+        textarea {
+            height: 158px;
+            padding: 16px 18px 16px 18px;
+        }
+    }
+
+    .contacts {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 50%;
+        padding-left: 25px;
+    }
+
+    .address,
+    .social,
+    .email,
+    .phone {
+        width: 46%;
+        position: relative;
+        padding: 50px 0 50px 66px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+
+        p {
+            padding: 16px 0 0 0;
+        }
+
+        i {
+            font-size: 17.1733px;
+            background-color: #3B4047;
+            width: 42px;
+            height: 42px;
+            top: 41px;
+            left: 0px;
+            display: flex;
+        }
+    }
+
+    .email,
+    .phone {
+        border-bottom: none;
+    }
+}
+
+.copyring {
+    padding: 112px 0 147px 0;
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 11px 15px;
+        border: 1px solid rgba(255, 255, 255, 0.15);
+        border-radius: 6.5px;
+
+        li {
+            font-size: 16.8px;
+            letter-spacing: 0.466667px;
+            padding: 0 17px;
+            border-right: 1px solid rgba(255, 255, 255, 0.15);
+            color: rgba(255, 255, 255, 0.25);
+
+            &:nth-child(3) {
+                border-right: 0;
+            }
+        }
+    }
+
+    a {
+        color: rgba(255, 255, 255, 0.25)
+    }
+}

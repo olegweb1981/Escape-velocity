@@ -1,0 +1,27 @@
+@media screen and (max-width: $md-width) {
+    .section {
+        padding-bottom: 103px;
+    
+        h3 {
+            padding: 54px 0 32px 0;
+        }
+    
+        h1 {
+            font-size: 33px;
+            letter-spacing: 2.475px;
+            line-height: 44.55px;
+            padding: 32px 0;
+        }
+    
+        p {
+            padding: 33px 0 44px 0;
+            font-size: 16.1333px;
+            letter-spacing: 0.22px;
+            line-height: 22px;
+
+            br {
+                display: none;
+            }
+        }
+    }
+}

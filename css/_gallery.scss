@@ -1,0 +1,39 @@
+.gallery {
+    background-color: #EAEAEA;
+
+    .title {
+        background-color: #EAEAEA;
+        padding: 20px 100px 40px 100px;
+        color: #606167;
+    }
+
+    .wrap {
+        display: flex;
+        flex-direction: row;
+        padding: 112px 0 169px 0;
+        justify-content: space-between;
+    }
+
+    .inner {
+        width: 30.7%;
+
+        img {
+            width: 100%;
+            border: 10px solid white;
+        }
+
+        .caption {
+            padding: 27px 0 16px 0;
+        }
+
+        p {
+            padding-bottom: 55px;
+        }
+
+        .btn {
+            font-size: 16.8px;
+            letter-spacing: 4.2px;
+            padding: 18px 38px;
+        }
+    }
+}

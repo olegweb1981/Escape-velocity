@@ -1,0 +1,31 @@
+@media screen and (max-width: $lg-width) {
+    .header {
+    
+        h2 {
+            letter-spacing: 6.41667px;
+            font-size: 25.6667px
+        }
+    }
+    
+    .menu {
+        padding: 37px 0 152px 0;
+    
+        ul {
+            width: 55.9%;
+            padding: 9px 0 8px 0;
+    
+    
+            li {
+                font-size: 10px;
+                letter-spacing: 2.5px;
+                padding: 0 5px;
+            }
+        }
+    }
+    
+    .slogan {
+        font-size: 13.2px;
+        letter-spacing: 2.64px;
+        padding: 6px 0 203px 0;
+    }
+}

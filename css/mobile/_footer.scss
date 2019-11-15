@@ -1,0 +1,124 @@
+@media screen and (max-width: $sm-width) {
+    .footer {
+
+        .title {
+            padding: 6px 48px 30px 48px;
+        }
+    
+        h2 {
+            padding: 39px 0 18px 0;
+        }
+    
+        h4 {
+            padding-bottom: 0;
+
+            br {
+                display: none;
+            }
+        }
+    
+        .btn {
+            font-size: 14px;
+            letter-spacing: 3.3px;
+            padding: 11px 0;
+        }
+    
+        .btn-reset {
+            margin-left: 0;
+            margin-top: 15px;
+        }
+
+        .buttons {
+            text-align: center;
+        }
+    }
+    
+    .feedback {
+        padding: 28px 0 0 0;
+        flex-direction: column;
+        border: 0;
+    
+        .form, textarea {
+            padding-bottom: 0;
+            flex-direction: column;
+        }
+
+        .form-group, .contacts {
+            width: 100%;
+        }
+    
+        .form-group {
+            padding-right: 0;
+            padding-top: 0;
+            padding-bottom: 13px;
+            border: 0;
+    
+            input, textarea {
+
+                margin-bottom: 15px;
+    
+                &::placeholder {
+                    font-size: 14.6667px;
+                    letter-spacing: 0.22px;
+                }
+            }
+    
+            input {
+                width: 100%;
+                padding: 11px 16px 12px 13px;
+            }
+    
+            textarea {
+                height: 113px;
+                padding: 11px 16px 11px 16px;
+            }
+        }
+    
+        .contacts {
+            padding-left: 0;
+        }
+    
+        .address,
+        .social,
+        .email,
+        .phone {
+            width: 100%;
+            padding: 16px 0 29px 49px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+
+            &:last-child {
+                border-bottom: 0;
+            }
+    
+            p {
+                padding: 8px 0 0 0;
+            }
+    
+            i {
+                font-size: 13.4933px;
+                width: 35px;
+                height: 35px;
+                top: 12px;
+                left: -1px;
+            }
+        }
+    }
+    
+    .copyring {
+        padding: 15px 0 26px 0;
+        width: 100%;
+    
+        ul {
+            padding: 9px;
+            flex-direction: column;
+    
+            li {
+                font-size: 12.6px;
+                letter-spacing: normal;
+                padding: 0;
+                border: 0;
+                line-height: 27px;
+            }
+        }
+    }
+}

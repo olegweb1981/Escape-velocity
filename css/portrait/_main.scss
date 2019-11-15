@@ -1,0 +1,33 @@
+@media screen and (max-width: $md-width) {
+    .main {
+        padding-bottom: 92px;
+    
+        .btn {
+            padding: 13px 38px;
+        }
+        .btn-info {
+            padding: 13px 48px;
+            margin-left: 22px;
+        }
+    
+        .buttons {
+            padding: 9px 0;
+        }
+    
+        .title {
+            padding: 13px 111px 40px 111px;
+        }
+    
+        img {
+            margin: 59px 0 73px 0;
+        }
+    
+        h2 {
+            padding: 6px 0 7px 0;
+        }
+    
+        h4 {
+            padding: 21px 0;
+        }
+    }
+}
