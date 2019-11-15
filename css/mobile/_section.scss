@@ -3,7 +3,7 @@
         padding-bottom: 69px;
 
         .btn {
-            width: 422px;
+            max-width: 422px;
         }
     
         h3 {
@@ -26,10 +26,6 @@
             br {
                 display: none;
             }
-        }
-
-        .title {
-            left: 31.6%;
         }
     }
 }

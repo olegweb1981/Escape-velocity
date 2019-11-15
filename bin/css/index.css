@@ -1154,10 +1154,11 @@ a.btn {
     padding: 14px 78px 40px 78px;
   }
   .gallery .wrap {
-    padding: 60px 138px 52px 138px;
+    padding: 60px 0 52px 0;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    max-width: 587px;
   }
   .gallery .inner {
     width: 100%;
@@ -1319,7 +1320,8 @@ a.btn {
   .slogan {
     font-size: 12.6px;
     letter-spacing: 2.52px;
-    padding: 4px 0 109px 0;
+    padding: 9px 8px 115px 8px;
+    line-height: 21px;
   }
 }
 
@@ -1328,7 +1330,7 @@ a.btn {
     padding-bottom: 69px;
   }
   .section .btn {
-    width: 422px;
+    max-width: 422px;
   }
   .section h3 {
     padding: 36px 0 21px 0;
@@ -1347,9 +1349,6 @@ a.btn {
   }
   .section p br {
     display: none;
-  }
-  .section .title {
-    left: 31.6%;
   }
 }
 
@@ -1423,7 +1422,8 @@ a.btn {
     padding: 8px 27px 30px 27px;
   }
   .gallery .wrap {
-    padding: 41px 60px 55px 60px;
+    padding: 41px 0 55px 0;
+    max-width: 559px;
   }
   .gallery .inner {
     width: 100%;

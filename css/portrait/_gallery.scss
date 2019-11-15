@@ -6,10 +6,11 @@
         }
     
         .wrap {
-            padding: 60px 138px 52px 138px;
+            padding: 60px 0 52px 0;
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            max-width: 587px;
         }
     
         .inner {
