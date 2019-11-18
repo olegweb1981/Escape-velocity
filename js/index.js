@@ -7,10 +7,4 @@ function showMenu() {
 }
 
 
-
-$('#nav > ul').dropotron({
-    mode: 'fade',
-    noOpenerFade: true,
-    alignment: 'center',
-    detach: false
-});
+$('.menu > ul').dropotron();

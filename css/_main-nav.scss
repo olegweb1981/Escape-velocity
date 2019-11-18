@@ -1,58 +1,25 @@
-#nav {
-
-    &:hover .level1 {
-        display: block;
-        
-    }
-    
+.nav {
 
     .dropotron {
-        background-color: rgba(44, 50, 63, 0.85);
+        background-color: wheat;
         border-radius: 5px;
         min-width: 216px;
         text-align: left;
         padding: 0 15px;
     }
 
-    .level1 {
-        border-top-left-radius: 0;
-        border-top-right-radius: 0;
-        top: 64px;
-        left: -60px;
-    }
-
-    .level2 {
-        top: 0;
-        left: 199px;
-    }
-
     ul {
         user-select: none;
-        z-index: 1000;
-        left: 333.703px;
-        top: 51.3281px;
-        opacity: 1;
+        list-style: none;
         display: none;
-        position: absolute;
-        transition: 2s ease;
 
         li {
             text-transform: uppercase;
             white-space: nowrap;
-            padding: 0;
             padding: 7px 0px 7px 0;
             border-bottom: 1px solid;
             border-color: rgba(255, 255, 255, 0.25);
 
-            &:nth-child(4) {
-                &:hover .level2 {
-                    display: block;
-                    transition: 1s ease;
-                }
-            }
-            &:nth-child(5) {
-                border-bottom: 0;
-            }
         }
     }
 }
