@@ -8,32 +8,22 @@
 
     .dropotron {
         background-color: rgba(44, 50, 63, 0.85);
-        border-radius: 0.35em;
-        box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.25);
-        min-width: 150px;
+        border-radius: 5px;
+        min-width: 216px;
         text-align: left;
-        margin-top: -1.25em;
-        margin-left: -1px;
-        list-style: none;
-        padding: 1.25em 0 1.25em 0;
+        padding: 0 15px;
     }
 
     .level1 {
-        margin-top: -1px;
-        margin-left: 0;
         border-top-left-radius: 0;
         border-top-right-radius: 0;
-        top: 55px;
-        left: -32px;
+        top: 64px;
+        left: -60px;
     }
 
     .level2 {
-        margin-top: -1px;
-        margin-left: 0;
-        border-top-left-radius: 0;
-        border-top-right-radius: 0;
-        top: -12px;
-        left: 147px;
+        top: 0;
+        left: 199px;
     }
 
     ul {
@@ -50,13 +40,18 @@
             text-transform: uppercase;
             white-space: nowrap;
             padding: 0;
-            padding: 0 1em 0 1em;
+            padding: 7px 0px 7px 0;
+            border-bottom: 1px solid;
+            border-color: rgba(255, 255, 255, 0.25);
 
             &:nth-child(4) {
                 &:hover .level2 {
                     display: block;
                     transition: 1s ease;
                 }
+            }
+            &:nth-child(5) {
+                border-bottom: 0;
             }
         }
     }

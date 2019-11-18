@@ -1,0 +1,26 @@
+@media screen and (max-width: $lg-width) {
+    #nav {
+
+        .dropotron {
+            min-width: 156px;
+            padding: 0 15px;
+        }
+
+        .level1 {
+            top: 50px;
+            left: -25px;
+        }
+
+        .level2 {
+            top: 0;
+            left: 139px;
+        }
+
+        ul {
+
+            li {
+                padding: 7px 0px 7px 0;
+            }
+        }
+    }
+}
