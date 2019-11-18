@@ -18,7 +18,23 @@
                 <div class="menu">
                     <ul>
                         <li><a href="#">HOME</a></li>
-                        <li><a href="#">DROPDOWN</a></li>
+                        <li id="nav"><a href="#">DROPDOWN</a>
+                            <ul class="dropotron level1">
+                                <li><a href="/skills/nunchuks">Lorem ipsum</a></li>
+                                <li><a href="/skills/bow-hunting">Magna veroeros</a></li>
+                                <li><a href="/skills/bow-hunting">Etiam nisl</a></li>
+                                <li><a href="/skills/computer-hacking">Sed consequat</a>
+                                    <ul class="dropotron level2">
+                                        <li><a href="/enemies/rogue-ais/shodan">Lorem dolor</a></li>
+                                        <li><a href="/enemies/rogue-ais/wintermute">Amet consequat</a></li>
+                                        <li><a href="/enemies/rogue-ais/neuromancer">Magna phasellus</a></li>
+                                        <li><a href="/enemies/rogue-ais/deus">Etiam nisl</a></li>
+                                        <li><a href="/enemies/rogue-ais/megaera">Sed feugiat</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="/skills/bow-hunting">Nisl tempus</a></li>
+                            </ul>
+                        </li>
                         <li><a href="#">LEFT SIDEBAR</a></li>
                         <li><a href="#">RIGHT SIDEBAR</a></li>
                         <li><a href="#">NO SIDEBAR</a></li>
@@ -225,6 +241,34 @@
                 </div>
             </div>
         </div>
+        <i class="fas fa-bars navbar" onclick="showMenu()"></i>
+    </div>
+    <div class="menu-panel">
+        <ul>
+            <li>HOME</li>
+            <li>DROPDOWN</li>
+            <ul>
+                <li>LOREM IPSUM</li>
+                <li>MAGNA VEROEROS</li>
+                <li>ETIAM NISL</li>
+                <li>SED CONSEQUAT</li>
+                <ul>
+                    <li>LOREM DOLOR</li>
+                    <li>AMET CONSEQUAT</li>
+                    <li>MAGNA PHASELLUS</li>
+                    <li>ETIAM NISL</li>
+                    <li>SED FEUGIAT</li>
+                </ul>
+            </ul>
+            <ul>
+                <li>NISL TEMPUS</li>
+            </ul>
+        </ul>
+        <ul>
+            <li>LEFT SIDEBAR</li>
+            <li>RIGHT SIDEBAR</li>
+            <li>NO SIDEBAR</li>
+        </ul>
     </div>
 
 
@@ -236,6 +280,9 @@
             $.pixlayout({clip: true, src: "maket.png", show:true, center:true, top:0, left:0, pervious: false});
         });
     </script>
+
+    <script src="http://code.jquery.com/jquery-x.x.x.min.js"></script>
+    <script src="jquery.dropotron.min.js"></script>
 
 </body>
 </html>

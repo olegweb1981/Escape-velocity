@@ -1,0 +1,63 @@
+#nav {
+
+    &:hover .level1 {
+        display: block;
+        
+    }
+    
+
+    .dropotron {
+        background-color: rgba(44, 50, 63, 0.85);
+        border-radius: 0.35em;
+        box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.25);
+        min-width: 150px;
+        text-align: left;
+        margin-top: -1.25em;
+        margin-left: -1px;
+        list-style: none;
+        padding: 1.25em 0 1.25em 0;
+    }
+
+    .level1 {
+        margin-top: -1px;
+        margin-left: 0;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        top: 55px;
+        left: -32px;
+    }
+
+    .level2 {
+        margin-top: -1px;
+        margin-left: 0;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        top: -12px;
+        left: 147px;
+    }
+
+    ul {
+        user-select: none;
+        z-index: 1000;
+        left: 333.703px;
+        top: 51.3281px;
+        opacity: 1;
+        display: none;
+        position: absolute;
+        transition: 2s ease;
+
+        li {
+            text-transform: uppercase;
+            white-space: nowrap;
+            padding: 0;
+            padding: 0 1em 0 1em;
+
+            &:nth-child(4) {
+                &:hover .level2 {
+                    display: block;
+                    transition: 1s ease;
+                }
+            }
+        }
+    }
+}

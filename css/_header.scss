@@ -29,14 +29,14 @@
         border-radius: 5px;
         border-color: rgba(255, 255, 255, 0.2);
         width: 65.7%;
-        padding: 16px 0;
-
 
         li {
+            position: relative;
             font-size: 13.06px;
             letter-spacing: 3.26667px;
             color: rgba(255, 255, 255, 0.7);
             padding: 0 5px;
+            padding: 16px 0;
         }
     }
 }

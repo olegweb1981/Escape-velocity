@@ -8,6 +8,7 @@
 @import 'mini-posts';
 @import 'gallery';
 @import 'footer';
+@import 'main-nav';
 
 //desctop
 @import 'desctop/common';
@@ -38,6 +39,9 @@
 @import 'portrait/mini-posts';
 @import 'portrait/gallery';
 @import 'portrait/footer';
+@import "portrait/menu-panel";
+
+
 
 //mobile
 @import 'mobile/common';

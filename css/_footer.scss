@@ -25,7 +25,7 @@
         margin-left: 29px;
         padding: 17px 66px;
         background-color: transparent;
-        border: 1px solid rgba(255, 255, 255, 0.15);
+        border: 1px solid rgba(255, 255, 255, 0.10);
 
         &:hover {
             opacity: 1;
@@ -43,7 +43,7 @@
     padding: 68px 0 55px 0;
     text-align: left;
     border-top: 1px solid rgba(255, 255, 255, 0.15);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.10);
 
     .form, textarea {
         display: flex;
@@ -104,7 +104,7 @@
         width: 46%;
         position: relative;
         padding: 50px 0 50px 66px;
-        border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.10);
 
         p {
             padding: 16px 0 0 0;
@@ -135,14 +135,14 @@
         flex-direction: row;
         justify-content: center;
         padding: 11px 15px;
-        border: 1px solid rgba(255, 255, 255, 0.15);
+        border: 1px solid rgba(255, 255, 255, 0.10);
         border-radius: 6.5px;
 
         li {
             font-size: 16.8px;
             letter-spacing: 0.466667px;
             padding: 0 17px;
-            border-right: 1px solid rgba(255, 255, 255, 0.15);
+            border-right: 1px solid rgba(255, 255, 255, 0.10);
             color: rgba(255, 255, 255, 0.25);
 
             &:nth-child(3) {
