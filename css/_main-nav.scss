@@ -1,25 +1,33 @@
-.nav {
+.dropotron {
+    border-radius: 5px;
+    padding: 0 15px;
+    flex-direction: column;
+    border: 1px solid;
+    border-color: rgba(255, 255, 255, 0.25);
+    width: 222px;
+    background-color: rgba(44, 50, 63, 0.925);
 
-    .dropotron {
-        background-color: wheat;
-        border-radius: 5px;
-        min-width: 216px;
-        text-align: left;
-        padding: 0 15px;
-    }
+    li {
+        text-transform: uppercase;
+        white-space: nowrap;
+        padding: 7px 0px;
+        border-bottom: 1px solid;
+        border-color: rgba(255, 255, 255, 0.25);
+        font-size: 13.06px;
+        letter-spacing: 3.26667px;
+        color: rgba(255, 255, 255, 0.25);
 
-    ul {
-        user-select: none;
-        list-style: none;
-        display: none;
+        &:last-child {
+            border-bottom: 0;
+        }
 
-        li {
-            text-transform: uppercase;
-            white-space: nowrap;
-            padding: 7px 0px 7px 0;
-            border-bottom: 1px solid;
-            border-color: rgba(255, 255, 255, 0.25);
-
+        a {
+            text-decoration: none;
         }
     }
+}
+
+.level-0 {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
 }
